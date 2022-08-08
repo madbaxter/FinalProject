@@ -47,7 +47,7 @@ namespace finalproject
         private void button1_Click_1(object sender, EventArgs e)
         {
             // add Volunteer form
-            // Multiple Inheritance + Class Example 
+           
             Form4 form4 = new Form4();
             form4.Show();
             this.Hide(); //hides form after launching new form

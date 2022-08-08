@@ -64,17 +64,24 @@ namespace finalproject
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            // Create Donate Form to launch when pressing button
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide(); //hides form after launching new form
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
         }
 
         private void button11_Click(object sender, EventArgs e)

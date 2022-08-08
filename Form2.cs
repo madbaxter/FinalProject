@@ -59,17 +59,17 @@ namespace finalproject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Loads Foster form
-            Form1 form1 = new Form1(); // goes to main menu
-            form1.Show();
+            // Loads Donate form
+            Form3 form3 = new Form3(); // goes to donate form
+            form3.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Loads Donate form
-            Form1 form1 = new Form1(); // goes to main menu
-            form1.Show();
+            // Loads volunteer form
+            Form4 form4 = new Form4(); // goes to volunteer form
+            form4.Show();
             this.Hide();
         }
 

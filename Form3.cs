@@ -119,5 +119,13 @@ namespace finalproject
             //create message box to print after entering info
             MessageBox.Show("Thank you, " + name + " for your donation of " + amt + ". It is greatly appreciated! A receipt will be emailed to you shortly!");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Launch volunteer form
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
     }
 }
